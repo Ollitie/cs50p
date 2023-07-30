@@ -2,11 +2,12 @@
 
 ## Description:
 
-This is a "final project" made to the [Harvard CS50's Introduction to programming with Python course](https://cs50.harvard.edu/python/2022/).
-
 The **Azure Resource Group Manager** is a simple command-line program written in Python (with help of Azure SDK for Python) that allows users to manage Microsoft Azure resource groups within their Azure subscription. The program interacts with the Azure Resource Manager API to perform various operations, such as listing resource groups, creating new resource groups, managing resource groups' tags, listing resources within a group, and deleting resource groups.
 
 The program uses for example logging to be able to review past actions and troubleshoot issues, different kinds of input validations e.g. on locations and names to ensure their validity in Azure, error handling to provide informative error messages to the user when needed, ability to cancel current operations and confirmations to prevent for example accidental deletions.
+
+This is a "final project" made to the [Harvard CS50's Introduction to programming with Python course](https://cs50.harvard.edu/python/2022/). I chose Azure and its resource groups as a topic to be able to practice basic Python skills in the real world context Thus I could learn both Python and Azure's services, and Azure SDK for Python.
+
 
 ## Functions:
 
