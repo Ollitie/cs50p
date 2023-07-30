@@ -24,11 +24,11 @@ The program consists of a single Python script, and the following is a brief des
 
 6. **`manage_tags()`**: Enables the user to add or delete tags for a specific resource group. Tags are key-value pairs in Azure that can be used for organizing and categorizing resources. The function retrieves existing tags from Azure. Tag names and values are also validated with regex according to Azure rules.
 
+7. **`list_resources()`**: Lists and prints all the resources, e.g. virtual machines, within a specified resource group. If there are resources in a group, tabulate is used to do the printing.
+
+8. **`delete()`**: Allows the user to delete a specified resource group and all its associated resources. The function confirms the deletion with the user before proceeding.
+
+9. **`exit()`**: A function to exit the program.
+
 ## Video demo:
 https://youtu.be/pTQsgUwJMAI
-
-8. **`list_resources()`**: Lists and prints all the resources, e.g. virtual machines, within a specified resource group. If there are resources in a group, tabulate is used to do the printing.
-
-9. **`delete()`**: Allows the user to delete a specified resource group and all its associated resources. The function confirms the deletion with the user before proceeding.
-
-10. **`exit()`**: A function to exit the program.
